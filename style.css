@@ -1,1 +1,33 @@
-/* stuff */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  padding-bottom: 0.8em;
+  font-size: 3rem;
+}
+
+h4 {
+  padding-bottom: 2em;
+  font-size: 1.5rem;
+}
+
+button {
+  background-color: red;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  border: 2px solid purple;
+  cursor: pointer;
+}
