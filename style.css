@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+
 *,
 *::before,
 *::after {
@@ -11,6 +13,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: "Bungee Spice", cursive;
+  background-image: linear-gradient(to bottom right, gray, black);
 }
 
 h1 {
@@ -24,10 +28,10 @@ h4 {
 }
 
 button {
-  background-color: red;
+  background-image: linear-gradient(180deg, orange, red);
   border-radius: 50%;
   height: 150px;
   width: 150px;
-  border: 2px solid purple;
+  border: 2px solid white;
   cursor: pointer;
 }
